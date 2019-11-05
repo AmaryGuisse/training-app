@@ -22,7 +22,7 @@ static Connection conn = null;
  
 		try {
 			// Charger le JDBC driver pour MYSQL.
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:8888/training", "root", "");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/training", "root", "root");
 			if (conn != null) {
 				log("Connexion à la base de données a été établie avec succès.");
 			} else {
